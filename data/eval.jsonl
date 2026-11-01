@@ -1,0 +1,12 @@
+{"question": "What is the first response time for a P2 ticket on the Pro plan?", "expected_files": ["support-policy.md"], "must_contain": ["4 business hours"]}
+{"question": "Can Basic plan customers open P1 critical tickets?", "expected_files": ["support-policy.md"], "must_contain": ["cannot"]}
+{"question": "How much discount do I get for annual billing?", "expected_files": ["pricing-and-billing.md"], "must_contain": ["15%"]}
+{"question": "What happens after a failed payment and how long is the grace period?", "expected_files": ["pricing-and-billing.md"], "must_contain": ["7"]}
+{"question": "How long does it take to delete customer data after the account is closed?", "expected_files": ["security-and-data.md"], "must_contain": ["35 days"]}
+{"question": "Is SAML single sign-on available on the Pro plan?", "expected_files": ["security-and-data.md"], "must_contain": ["Enterprise"]}
+{"question": "What service credit applies if uptime drops below 95%?", "expected_files": ["sla.md"], "must_contain": ["50%"]}
+{"question": "When are the maintenance windows and are they counted in uptime?", "expected_files": ["sla.md"], "must_contain": ["Sunday"]}
+{"question": "What does error ORB-503 mean?", "expected_files": ["incident-runbook.md"], "must_contain": ["failover"]}
+{"question": "How do I roll back a release?", "expected_files": ["incident-runbook.md"], "must_contain": ["orbctl deploy rollback"]}
+{"question": "How many free training sessions does an Enterprise customer get?", "expected_files": ["onboarding.md"], "must_contain": ["5"]}
+{"question": "Up to what volume is data migration free?", "expected_files": ["onboarding.md"], "must_contain": ["500"]}
